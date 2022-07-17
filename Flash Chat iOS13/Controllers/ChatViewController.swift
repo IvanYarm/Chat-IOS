@@ -96,7 +96,7 @@ class ChatViewController: UIViewController {
                                 
                                 if self.message[indexPath.row].sender != Auth.auth().currentUser?.email {
                                 DispatchQueue.main.async {
-                                    self.playSound(soundName: "B" )}
+                                    self.playSound(soundName: "D" )}
                                     
                                     }
                             }
